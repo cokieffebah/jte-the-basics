@@ -1,6 +1,6 @@
 //pipeline{
 //  agent any
-  stages{
+//  stages{
     stage("CI"){
       steps{
         script{
@@ -15,5 +15,5 @@
         deploy_to prod
       }
     }
-  }
+//  }
 //}
