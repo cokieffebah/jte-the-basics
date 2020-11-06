@@ -1,4 +1,5 @@
 @merge libraries{
+    gradle
     sonarqube
     ansible
     helper
