@@ -1,5 +1,5 @@
-pipeline{
-  agent any
+//pipeline{
+//  agent any
   stages{
     stage("CI"){
       steps{
@@ -16,4 +16,4 @@ pipeline{
       }
     }
   }
-}
+//}
