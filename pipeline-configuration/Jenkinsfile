@@ -2,18 +2,18 @@
 //  agent any
 //  stages{
     stage("CI"){
-      steps{
-        script{
+//      steps{
+//        script{
           build()
-        }
+//        }
         static_code_analysis()
-      }
+//      }
     }
     stage("Deployment"){
-      steps{
+//      steps{
         deploy_to dev
         deploy_to prod
-      }
+//      }
     }
 //  }
 //}
